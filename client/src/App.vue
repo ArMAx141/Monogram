@@ -10,7 +10,21 @@ import card from "./components/card.vue";
     <navbar />
     <div class="container">
       <main>
-        <card />
+        <card
+          imageSrc="lake-rainy.webp"
+          alt-text="test"
+          heading="Lake"
+          date="1-1-2020"
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, enim hic? Maxime, eos ipsum! Aspernatur quam eum ad officia non?"
+        />
+
+        <card
+          imageSrc="Bodu.jpg"
+          alt-text="test"
+          heading="Resort"
+          date="1-1-2020"
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, enim hic? Maxime, eos ipsum! Aspernatur quam eum ad officia non?"
+        />
       </main>
       <sidebar />
     </div>
