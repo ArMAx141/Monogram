@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import navbar from "./components/navbar.vue";
 import sidebar from "./components/sidebar.vue";
+import "./assets/reset.css";
 </script>
 
 <template>
@@ -14,20 +15,12 @@ import sidebar from "./components/sidebar.vue";
 </template>
 
 <style scoped>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
   width: 100%;
 
-  .navbar-container {
-    background-color: rgb(182, 171, 117);
-  }
+
 }
 
 .container {
@@ -38,6 +31,7 @@ import sidebar from "./components/sidebar.vue";
   main {
     width: 80%;
     background-color: rgb(102, 135, 154);
+    padding: 1rem;
   }
 
   .aside-container {
