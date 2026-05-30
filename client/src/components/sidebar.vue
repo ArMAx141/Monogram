@@ -7,6 +7,8 @@
 
 <style scoped>
 .aside-container {
+  background-color: rgb(231, 202, 146);
+
   padding: 1rem;
 }
 </style>

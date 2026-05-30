@@ -2,13 +2,16 @@
 import navbar from "./components/navbar.vue";
 import sidebar from "./components/sidebar.vue";
 import "./assets/reset.css";
+import card from "./components/card.vue";
 </script>
 
 <template>
   <div class="main-container">
     <navbar />
     <div class="container">
-      <main><h1>Main Content</h1></main>
+      <main>
+        <card />
+      </main>
       <sidebar />
     </div>
   </div>
@@ -19,8 +22,6 @@ import "./assets/reset.css";
   display: flex;
   flex-direction: column;
   width: 100%;
-
-
 }
 
 .container {
@@ -29,15 +30,17 @@ import "./assets/reset.css";
   width: 100%;
   min-height: 100dvh;
   main {
+    background-color: rgb(252, 249, 243);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 80%;
-    background-color: rgb(102, 135, 154);
     padding: 1rem;
   }
 
   .aside-container {
     display: flex;
     flex-grow: 1;
-    background-color: rgb(154, 102, 102);
   }
 }
 </style>

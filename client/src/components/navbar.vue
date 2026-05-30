@@ -14,7 +14,7 @@
 
 <style scoped>
 .navbar-container {
-  background-color: rgb(182, 171, 117);
+  background-color: rgb(242, 232, 213);
 
   display: flex;
   justify-content: space-between;
