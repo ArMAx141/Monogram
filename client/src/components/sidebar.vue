@@ -1,5 +1,5 @@
 <template>
-  <div class="aside-container"><h1>Sidebar</h1></div>
+  <div class="aside-container"><h3>Recept Posts</h3></div>
   <!-- <h1>Sidebar</h1> -->
 </template>
 
